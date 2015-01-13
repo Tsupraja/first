@@ -1,0 +1,18 @@
+require 'spec_helper'
+require './spec/fact/gopage.rb'
+module Page
+step "Opening department page" do
+
+@home_page = Home.new
+puts "below"
+puts @home_page.load
+#@home_page.search_field
+puts @home_page.secure? 
+puts @home_page.has_search_field?
+puts @home_page.has_no_search_field?
+end
+
+
+end
+RSpec.configure { |c| c.include Page}
+

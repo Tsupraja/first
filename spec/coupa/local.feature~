@@ -1,0 +1,10 @@
+Feature:  visiting http://localhost/departments 
+Scenario: opening localhost
+     Given I am opening localhost
+Scenario: creating new department    
+      Given there's a Department name with description
+Scenario:checking name and description
+      Given the name should be "IT"and description should be "INFORMATION TECHNOLOGY"
+Scenario:givening only description
+      Given I enter the given description "coumputer"      
+ 

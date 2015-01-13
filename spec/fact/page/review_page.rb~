@@ -1,0 +1,7 @@
+class Review < SitePrism::Page
+section :shipto,Shipto,"#shipTo"
+section :cartitem,Cartitems,"#requisition-cart"
+
+element :submitforapproval, "button[id='submit_for_approval_link']" 
+end
+end

@@ -1,0 +1,7 @@
+Feature: Home page
+
+  Scenario: Viewing application's home page
+    Given there's a post name "IT" with "Information Technology" descripion
+    When I am on the homepage
+    Then I should see the "My first" post
+

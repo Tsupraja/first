@@ -1,0 +1,5 @@
+class Home < SitePrism::Page
+  set_url "www"
+
+  element :search_field, "input[name='q']"
+end

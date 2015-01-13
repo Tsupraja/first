@@ -1,0 +1,5 @@
+require './spec/fact/section/top_menu_section.rb'
+class Coupa < SitePrism::Page
+
+Section :top, Home_top_Section, "#topNav"
+end

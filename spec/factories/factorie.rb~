@@ -1,0 +1,7 @@
+FactoryGirl.define do
+  factory :department do
+    name "My first post"
+   description "Hello, behavior-driven development world!"
+  end
+end
+

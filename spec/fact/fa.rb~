@@ -1,0 +1,11 @@
+require 'spec_helper'
+
+describe  Department do
+
+  it { should validate_presence_of(:name) }
+  it { should ensure_length_of(:name).is_at_least(6) }
+  it { should validate_presence_of(:description) }
+  it { should ensure_length_of(:description).is_at_least(15) }
+
+end
+

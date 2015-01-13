@@ -1,0 +1,4 @@
+Feature: Visiting http://www.google.com
+ 
+Scenario: Viewing google page
+	Given Opening google page
