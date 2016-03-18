@@ -11,8 +11,8 @@ puts "passed 1"
    end
 
      step "I enter valid login details" do
-        session.fill_in('user[login]', :with => 'coupasupport')
-         session.fill_in('user[password]', :with => 'CoupaSupport1')
+        session.fill_in('user[login]', :with => 'new')
+         session.fill_in('user[password]', :with => 'new1')
  puts "passed 2"      
         end
 

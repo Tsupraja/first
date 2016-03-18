@@ -30,8 +30,8 @@ puts "below"
 
 end
 step "I enter valid login details" do
-@home.input_name.set "coupasupport"
-@home.input_password.set "CoupaSupport1"
+@home.input_name.set "new"
+@home.input_password.set "new1"
 #
 #@home.wait_for_c_button()
 end

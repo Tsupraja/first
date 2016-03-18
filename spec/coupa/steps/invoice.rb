@@ -17,8 +17,8 @@ step "I am on login page of coupa" do
         @home.has_c_button?
 end
 step "I enter valid login details" do
-@home.input_name.set "coupasupport"
-@home.input_password.set "CoupaSupport1"
+@home.input_name.set "new"
+@home.input_password.set "new1"
 end
 step "Press Sign In button" do
 @home.c_button.click
